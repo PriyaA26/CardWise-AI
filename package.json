@@ -1,0 +1,18 @@
+{
+  "name": "india-card-advisor-ai-og",
+  "version": "1.0.0",
+  "description": "An AI-powered agent to help Indian users optimize their credit and debit card portfolios for maximum savings and benefits. Get personalized analysis and new card recommendations based on your spending habits.",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "serve -s .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.13.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "serve": "^14.2.3"
+  },
+  "author": "AI Studio",
+  "license": "ISC"
+}
