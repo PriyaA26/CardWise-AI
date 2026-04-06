@@ -17,6 +17,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
+    "allowSyntheticDefaultImports": true, 
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
@@ -25,5 +26,11 @@
     },
     "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  "include": [
+    "index.tsx",
+    "App.tsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
